@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './register.component.css'
 })
 export class RegisterComponent {
-  name: string = 'alaica';
-  email: string = 'alaica@gmail.com';
-  password: string = '123';
-  confirmPassword: string = '123';
+  name: string = '';
+  email: string = '';
+  password: string = '';
+  confirmPassword: string = '';
 
   onSubmit() {
     if (this.password === this.confirmPassword) {
